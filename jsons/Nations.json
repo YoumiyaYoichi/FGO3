@@ -1,38 +1,214 @@
 [
 	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
+		"name": "俄罗斯异闻带",
+		"leaderName": "伊凡雷帝",
+		"adjective": ["俄罗斯"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Domination",
+		"personality": "伊凡雷帝",
 		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
+		"startIntroPart1": "伟大的伊凡雷帝，当大冰河期颠覆整个世界时，您用您的智慧带领着魔术师们将俄罗斯的人民转化为雅噶以渡过极端的严寒，当其他文明逐渐消失于暴风雪中时，唯有俄罗斯幸存了下来。",
+		"startIntroPart2": "沙皇啊，您的手中掌握着非常大权，您是否能将沙皇家族的统治从西伯利亚传播至全世界？",
 		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
+		"declaringWar": "吾之行军永恒持续。神之兽将踏碎一切，于吾旅路随行之兽！",
+		"attacked": "愚蠢之辈！",
+		"defeated": "沙皇……错了……",
+		"introduction": "在神前叩拜吧！",
 		
-		"neutralHello": "How are you doing?",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+		"neutralHello": "和余共同迈进吧，沿着杀戮的道路。",
+		"hateHello": "不能原谅。不能原谅，不能原谅，不能原谅——！",
+		
+		"tradeRequest": "和余玩一会儿吧。",
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
-		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+		"outerColor": [30,37,187],
+		"innerColor": [255,255,255],
+		"uniqueName": "永久冻土帝国",
+		"uniques": ["Enemy [Land] units must spend [1] extra movement points when inside your territory","[+2 Food] from every [Snow]"]
+		"cities": ["雅噶·莫斯科","雅噶·圣彼得堡","雅噶·诺夫哥罗德","雅噶·罗斯托夫","雅噶·雅罗斯拉夫尔","雅噶·叶卡捷琳堡","雅噶·雅库茨克","Yaga Vladivostok","Yaga Smolensk","Yaga Orenburg",
+			"Yaga Krasnoyarsk","Yaga Khabarovsk","Yaga Bryansk","Yaga Tver","Yaga Novosibirsk","Yaga Magadan","Yaga Murmansk","Yaga Irkutsk","Yaga Chita","Yaga Samara",
+			"Yaga Arkhangelsk","Yaga Chelyabinsk","Yaga Tobolsk","Yaga Vologda","Yaga Omsk","Yaga Astrakhan","Yaga Kursk","Yaga Saratov","Yaga Tula","Yaga Vladimir","Yaga Perm",
+			"Yaga Voronezh","Yaga Pskov","Yaga Starayarussa","Yaga Kostoma","Yaga Nizhniy Novgorod","Yaga Suzdal","Yaga Magnitogorsk"]
+	},
+	{
+		"name": "北欧异闻带",
+		"leaderName": "斯卡哈·斯卡蒂",
+		"adjective": ["北欧"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Cultural",
+		"personality": "斯卡哈·斯卡蒂",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
+                "startIntroPart1": "北欧的冬之女神，在诸神黄昏的结尾，奥丁将凯尔特的影之女王与您融合，将九界的最后火种托付给您，让您和最后的人类能够逃离苏尔特尔的毁灭。得益于您强大的卢恩符文，使人类最后的伊甸园免于被巨人侵扰。",
+                "startIntroPart2": "黑色的太阳正在苏醒，未果的诸神黄昏将继续。您能指引人类最后的希望穿越燃烧的冰原吗？",
+
+		"declaringWar": "头抬得太高了。匍匐在……神的面前吧！",
+		"attacked": "我准了。你们就在此终结吧……",
+		"defeated": "有谁……有谁……没有……能救我之人吧……",
+		"introduction": "我是神灵斯卡哈·斯卡蒂。北欧古老诸神的新娘",
+
+		"neutralHello": "我踩到了什么吗？",
+		"hateHello": "居然命令我？",
+
+		"tradeRequest": "该·使·用·哪·一·种·呢？",
+
+		"outerColor": [255, 215, 0],
+		"innerColor": [255, 128, 0],
+		"uniqueName": "无间冰焰纪元",
+		"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]","[-100]% Unhappiness from [Population] [in all cities]","Nullifies Growth [in all cities] <when at war>"],
+		"cities":["Edinburgh","Dublin","Cardiff","Truro","Nantes","Douglas","Glasgow","Cork","Aberystwyth",
+			"Penzance","Rennes","Ramsey","Inverness","Limerick","Swansea","St. Ives","Brest","Peel","Aberdeen",
+			"Belfast","Caernarfon","Newquay","Saint-Nazaire","Castletown","Stirling","Galway","Conwy",
+			"St. Austell","Saint-Malo","Onchan","Dundee","Londonderry","Llanfairpwllgwyngyll","Falmouth","Lorient"]
+	},
+	{
+		"name": "中国异闻带",
+		"leaderName": "始皇帝",
+		"adjective": ["中国"],
+		"preferredVictoryType": "Domination",
+		"personality": "始皇帝",
+
+                "startIntroPart1": "永恒的皇帝，您以无与伦比的智慧与威压统一了天下。中华上下五千年的各路豪杰都被封存于您的宝库中，秦帝国的战士无论身处何处都所向披靡。悬浮于近地轨道的长城威慑着来自宇宙的敌人。您的子民无不歌颂并敬仰您。",
+                "startIntroPart2": "原初的皇帝啊，作为真人，您能否继续维持您唯一的统治，延续这片由中华儿女抛头颅洒热血所建立的乌托邦？",
+
+		"declaringWar": "在天地狭缝间，人类本应如此，于此实行新的律法！",
+		"attacked": "明白朕为何人吗……蠢材！",
+		"defeated": "游戏到此结束了吗？",
+		"introduction": "功盖三皇，德高五帝之霸者。这就是始皇帝，即为朕是也！",
+
+		"neutralHello": "无可救药啊。",
+		"hateHello": "惶恐也该有个限度！",
+
+		"tradeRequest": "这是赏赐。",
+
+		"outerColor": [49,36,28],
+		"innerColor": [255,185,15],
+		"uniqueName": "人智统合真国",
+		"uniques": ["[+4 Science] [in all cities]","[+1 Science] [Great Improvement]","[-2 Culture] [in all cities]"],
+		"cities":["咸阳","北京","上海","广州","南京","成都","杭州","天津","澳门","山东",
+			"开封","宁波","保定","扬州","哈尔滨","重庆","洛阳","昆明","台北","沈阳",
+			"太原","台南","大连","丽江","无锡","苏州","茂名","香港","高雄","石家庄","合肥",
+			"宜昌","海南","喀什","深圳","邯郸","敦煌","大同","南通","乌鲁木齐","甘肃"]
+        },
+	{
+                "name": "印度异闻带",
+		"leaderName": "阿周那(Alter)",
+		"adjective": ["印度"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "阿周那(Alter)",
+
+                "startIntroPart1": "因陀罗之子，您和您的兄弟书写了辉煌的传奇——然而，在俱卢之战后，您的心境开始改变。为了消灭世间一切邪恶，您吸收了所有印度神明，创造了一个不断轮回的世界。所有的邪恶都将在轮回中一次又一次被消灭。",
+                "startIntroPart2": "黑色最后之神，您距离实现目标只差最后一步。您能斩断一切邪恶，完成最终的轮回吗？",
+
+		"declaringWar": "赐予善性之物以生，赐予恶性之物以裁。回剑驱动，毁灭！裁定归灭之回剑！",
+		"attacked": "让终结……开始吧。",
+		"defeated": "我也会在此迎来终结吗……这也算是……宿命……",
+		"introduction": "阿周那……此身乃为毁灭邪恶而存，邪恶必须全部得到制裁……",
+
+		"neutralHello": "星辰将缩小，邪恶将被剑制裁。",
+		"hateHello": "邪恶，必须得到制裁。",
+
+		"tradeRequest": "对永无止境的命运……又能怀有什么期望。",
+
+		"outerColor": [238,130,238],
+		"innerColor": [128,0,128],
+		"uniqueName": "创世灭亡轮回",
+		"uniques": ["[+2 Faith, +1 Culture] per [2] population [in capital]","[+2 Faith] [Great Improvement]","[+50]% Golden Age length"],
+		"cities":["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad",
+			"Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur",
+			"Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"]
+        },
+	{
+                "name": "希腊异闻带",
+		"leaderName": "宙斯",
+		"adjective": ["希腊"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Cultural",
+		"personality": "宙斯",
+
+                "startIntroPart1": "众神之王，承载着母星的遗愿，您和奥林匹斯众神来到了这颗蔚蓝星球。您用至高的雷霆统治了希腊的神代，凝聚十二机神的力量击败了白色巨人并消灭了站在您对立面的神明。在您的统治下，神话时代繁荣至今。",
+                "startIntroPart2": "跨越星海的雷霆啊，您能在新的变数到来时继续维持神代，并实现您母星的意志吗？",
+
+		"declaringWar": "以吾之全能将汝等烧成灰烬！",
+		"attacked": "见识吾之全能吧。",
+		"defeated": "不可能……居然会伤到全能的吾……。你们，到底是什么人！",
+		"introduction": "吾乃宙斯，由天空支配万象的全能之神。",
+
+		"neutralHello": "一切权能，皆为吾所有。",
+		"hateHello": "跪拜吧。",
+
+		"tradeRequest": "崇拜吧。",
+
+		"outerColor": [8,46,84],
+		"innerColor": [0,255,255],
+		"uniqueName": "星间都市山脉",
+		"uniques": ["[Great Scientist] is earned [50]% faster","[+15]% Strength <when fighting units from a Civilization with less Cities than you>","[+1 Science] from every [Coast] <after discovering [Education]>","[+1 Culture] from every [Atoll] <after discovering [Sientific Theory]>","[+1 Culture] from every [Coast] <after discovering [Radio]>"],
+		"cities":["Olympus","Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
+			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
+			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos",
+			"Larissa","Apollonia","Messene","Orchomenos","Ambracia","Kos","Knidos","Amphipolis",
+			"Patras","Lamia","Nafplion","Apolyton"]
+	},
+	{
+                "name": "不列颠异闻带",
+		"leaderName": "摩根",
+		"adjective": ["不列颠"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Cultural",
+		"personality": "摩根",
+
+                "startIntroPart1": "冬之女王。您以恐怖统治整个妖精国，维持这片脆弱而充满罪恶的土地。人类的时代已经结束，不列颠成为了独属于妖精的天堂。在妖精骑士的帮助下，没有人敢反抗您的统治。",
+                "startIntroPart2": "被残忍杀害的神明终将归来，奈落之虫将笼罩不列颠的天空。妖精们的灾厄已经降临——是时候偿还他们的罪孽了。您能保护这个王国与您的希望吗？",
+
+		"declaringWar": "……将双眼所见之物，全部化为灰烬。",
+		"attacked": "是吗……好吧。在我的脚下乞求原谅吧。",
+		"defeated": "不可能也该有个底线。快要因屈辱气到失去理性了……",
+		"introduction": "我是妖精国不列颠的女王，也是不断诅咒泛人类史的存在。",
+
+		"neutralHello": "你应该感到光荣。",
+		"hateHello": "无礼之徒。放弃吧。",
+
+		"tradeRequest": "不会让你过于烦恼的。变得愉快起来了吧。",
+
+		"outerColor": [255,250,240],
+		"innerColor": [255,215,0],
+		"uniqueName": "妖精圆桌领域",
+		"uniques": ["[+20]% Strength <for [All] units> <during a Golden Age>","[+2 Production] from every [Pasture]","[Great General] is earned [100]% faster"],
+	        "cities": ["Camelot","Londinium","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
+			"Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
+			"Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
+			"Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"]
+
+	},
+	{
+                "name": "南美异闻带",
+		"leaderName": "库库尔坎",
+		"adjective": ["南美"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Cultural",
+		"personality": "库库尔坎",
+
+                "startIntroPart1": "玛雅的至高神。您在6600万年前来到这个星球，通过环境改造为即将灭绝的生命提供一个地下世界。然而，这一次您没有选择人类，而是选择了更强大与理性的迪诺斯，并成为保护九层世界的太阳与UO。",
+                "startIntroPart2": "太阳即将熄灭。噬星的大蜘蛛将冥界深处再次苏醒。善与创造之神，这次你能重新点燃太阳吗？",
+
+		"declaringWar": "看来还是不够呢。——化作极小的尘埃吧。",
+		"attacked": "好吧。是经由死亡相互理解，是这样吧。",
+		"defeated": "只要存在容器就会毁坏，这是不言自明之理。……真遗憾。",
+		"introduction": "我名为库库尔坎。乃黄金之风、灼热心脏！",
+
+		"neutralHello": "此乃爱好的世界！",
+		"hateHello": "半吊子尺寸的世界就是这个德行……应该偏向极小或极大这两者之一。",
+
+		"tradeRequest": "由我收下。",
+
+		"outerColor": [34,139,34],
+		"innerColor": [189,252,201],
+		"uniqueName": "黄金树海纪行",
+		"uniques": ["[+30]% Strength <for [{Military} {Land}] units> <when fighting in [Friendly Land] tiles> <when below [40] HP>]","Empire enters a [8]-turn Golden Age <when wonders are built in capital>","[+2 Culture] from every [Jungle]"],
+	        "cities": ["Tenochtitlan","Teotihuacan","Tlatelolco","Texcoco","Tlaxcala","Calixtlahuaca","Xochicalco","Tlacopan",
+			"Atzcapotzalco","Tzintzuntzan","Malinalco","Tula","Tamuin","Teayo","Cempoala","Chalco","Tlalmanalco",
+			"Ixtapaluca","Huexotla","Tepexpan","Tepetlaoxtoc","Chiconautla","Zitlaltepec","Coyotepec","Tequixquiac",
+			"Jilotzingo","Tlapanaloya","Tultitan","Ecatepec","Coatepec","Chalchiuites","Chiauhita","Chapultepec",
+			"Itzapalapa","Ayotzinco","Iztapam"]
+
 	}
 ]
